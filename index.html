@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=".\style.css">
+    <title>Digital Calculator</title>
+</head>
+<body>
+   <div class="calculator">
+    <input type="text" id="userInput" readonly placeholder="0">
+    
+    <!--First Row-->
+   <div class="numbersign">
+    <div class="ns">1</div>
+    <div class="ns">2</div>
+    <div class="ns">3</div>
+    <div class="ns">+</div>
+   </div>
+    
+    <!--Second Row-->
+    <div class="numbersign">
+        <div class="ns">4</div>
+        <div class="ns">5</div>
+        <div class="ns">6</div>
+        <div class="ns">-</div>
+       </div>
+
+    <!--Third Row-->
+    <div class="numbersign">
+        <div class="ns">7</div>
+        <div class="ns">8</div>
+        <div class="ns">9</div>
+        <div class="ns">*</div>
+       </div>
+
+    <!--Fourth Row-->
+    
+    <div class="numbersign">
+        <div class="erase" onclick="erase()">C</div>
+        <div class="ns">0</div>
+        <div class="equal" onclick="equal()">=</div>
+        <div class="ns">/</div>
+       </div>
+   
+   </div>
+  
+    <script src=".\script.js"></script>
+</body>
+</html>
